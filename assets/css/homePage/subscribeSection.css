@@ -1,0 +1,132 @@
+/*------------------------------------------- Subscribe -------------------------------------------*/
+
+.subscribe-container {
+  margin: 0 4rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+  text-align: center;
+}
+
+.subscribe-data {
+  flex-basis: 45%;
+}
+
+.subscribe-title {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 0.5rem rgba(17, 16, 14, 0.233);
+}
+
+.subscribe-description {
+  font-size: var(--medium-font-size);
+  font-family: var(--secondary-font);
+}
+
+.subscribe-form {
+  flex-basis: 40%;
+}
+
+.subscribe-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.subscribe-form input {
+  width: 100%;
+  padding: 10px 20px;
+  background: none;
+  height: 50px;
+  font-size: 24px;
+  border: none;
+  border-bottom: 2px solid var(--color-red);
+}
+
+.subscribe-form input:focus {
+  outline: none;
+  border-bottom-color: var(--color-red);
+}
+
+.subscribe-form button {
+  width: 80%;
+  padding: 10px 20px;
+  background-color: var(--color-red);
+  color: white;
+  font-size: 22px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  letter-spacing: 0.3rem;
+}
+
+.subscribe-form button:hover {
+  scale: 1.05;
+}
+
+/*------------------------------------ RESPONSIVE ---------------------------------------*/
+
+@media (max-width: 430px) {
+  .subscribe-container {
+    margin: 0 1rem;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 1023px) {
+  .subscribe-container {
+    margin: 0 2rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  .subscribe-container {
+    flex-direction: row;
+    text-align: initial;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .subscribe-data {
+    flex-basis: 50%;
+  }
+  .subscribe-form {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .subscribe-container {
+    padding: 5rem 3rem;
+    margin-bottom: 2rem;
+    background-image: url("../../images/homePageImages/fruit_strawberry.png");
+    flex-direction: row;
+    text-align: initial;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .subscribe-data {
+    flex-basis: 40%;
+  }
+  .subscribe-form {
+    flex-basis: 45%;
+  }
+  .subscribe-form input {
+    width: 80%;
+  }
+  /* .subscribe-form button {
+    width: 35%;
+  } */
+}
+
+@media (min-width: 1220px) {
+  .subscribe-title {
+    font-size: 2.3rem;
+  }
+  .subscribe-description {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frutilla</title>
+    <!---------------------- ICONS ------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.4.0/remixicon.css"
+    />
+    <!---------------------- CSS FOLDER -------------------->
+    <link rel="stylesheet" href="../assets/css/blogPage/blogPageBase.css" />
+  </head>
+  <body>
+    <!---------------------- Start Of Header -------------------->
+    <header class="header" id="header">
+      <!-------------------- LARGE SCREEN NAVBAR ---------------->
+      <nav class="nav-large-screen nav-container">
+        <!---------- LOGO ---------->
+        <a href="index.html" class="nav-logo">Frutilla</a>
+        <!---------- MENU ---------->
+        <div class="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">30 Minutes</a>
+            </li>
+            <li class="nav-item">
+              <a href="blogPage.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contactPage.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!------- RIGHT SIDE ------->
+        <div class="nav-right">
+          <a href="profile.html" class="profile-pic">
+            <img src="../assets/images/profilePic.png" alt="profile-pic" />
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!-------------------- MEDIUM SCREEN NAVBAR ----------------->
+    <div class="nav-medium-screen">
+      <div class="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">30 Minutes</a>
+          </li>
+          <li class="nav-item">
+            <a href="blogPage.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contactPage.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-------------------- SMALL SCREEN NAVBAR ------------------>
+    <div class="nav-small-screen">
+      <div class="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              <i class="ri-git-repository-line"></i>
+              <!-- <span>Recipes</span> -->
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="ri-replay-30-line"></i>
+              <!-- <span>30 Minutes</span> -->
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="blogPage.html" class="nav-link">
+              <i class="ri-news-line"></i>
+              <!-- <span>Blog</span> -->
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="ri-questionnaire-line"></i>
+              <!-- <span>About</span> -->
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contactPage.html" class="nav-link">
+              <i class="ri-contacts-book-line"></i>
+              <!-- <span>Contact</span> -->
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!---------------------- End Of Header ---------------------->
+    <!---------------------- Start Of Main Content -------------->
+    <main class="main-content">
+      <!-------------------- Start Of Blog Section -------------->
+      <section class="blog">
+        <div class="blog-container container">
+          <div class="blog-data"></div>
+          <div class="blog-grid-container">
+            <div class="blog-recipe-card">
+              <div class="recipe-image">
+                <img
+                  src="../assets/images/blogPageImages/image1.jpg"
+                  alt="featured-recipe-1"
+                />
+              </div>
+              <div class="recipe-info">
+                <h2 class="recipe-title text-ellipsis">
+                  Strawberry Lemon Cake
+                </h2>
+                <p class="recipe-description">
+                  Bright strawberries, zesty lemon, and warm cardamom in a
+                  tender brunch cake!
+                </p>
+              </div>
+              <div class="card-bottom">
+                <a href="recipePage.html">View Recipe</a>
+                <div class="card-icons">
+                  <i class="ri-heart-fill"></i>
+                  <span>123</span>
+                </div>
+              </div>
+            </div>
+            <div class="blog-recipe-card">
+              <div class="recipe-image">
+                <img
+                  src="../assets/images/homePageImages/featuredImages/featured_card1.jpg"
+                  alt="featured-recipe-1"
+                />
+              </div>
+              <div class="recipe-info">
+                <h2 class="recipe-title text-ellipsis">
+                  Homemade Acai Smoothi
+                </h2>
+                <p class="recipe-description">
+                  Refreshing, fruity, and packed with nutrients for a delicious
+                  boost!
+                </p>
+              </div>
+              <div class="card-bottom">
+                <a href="recipePage.html">View Recipe</a>
+                <div class="card-icons">
+                  <i class="ri-heart-fill"></i>
+                  <span>123</span>
+                </div>
+              </div>
+            </div>
+            <div class="blog-recipe-card">
+              <div class="recipe-image">
+                <img
+                  src="../assets/images/homePageImages/featuredImages/featured_card2.jpg"
+                  alt="featured-recipe-1"
+                />
+              </div>
+              <div class="recipe-info">
+                <h2 class="recipe-title text-ellipsis">Roasted Veggie Glow</h2>
+                <p class="recipe-description">
+                  A nourishing, veggie-packed bowl with a vibrant blend of
+                  flavors to fuel and refresh.
+                </p>
+              </div>
+              <div class="card-bottom">
+                <a href="recipePage.html">View Recipe</a>
+                <div class="card-icons">
+                  <i class="ri-heart-fill"></i>
+                  <span>123</span>
+                </div>
+              </div>
+            </div>
+            <div class="blog-recipe-card">
+              <div class="recipe-image">
+                <img
+                  src="../assets/images/homePageImages/featuredImages/featured_card3.webp"
+                  alt="featured-recipe-1"
+                />
+              </div>
+              <div class="recipe-info">
+                <h2 class="recipe-title text-ellipsis">
+                  Strawberry Cheesecake Bars
+                </h2>
+                <p class="recipe-description">
+                  Creamy cheesecake layers with sweet strawberry swirls on a
+                  buttery crust—indulgence in every bite!
+                </p>
+              </div>
+              <div class="card-bottom">
+                <a href="recipePage.html">View Recipe</a>
+                <div class="card-icons">
+                  <i class="ri-heart-fill"></i>
+                  <span>123</span>
+                </div>
+              </div>
+            </div>
+            <div class="blog-recipe-card">
+              <div class="recipe-image">
+                <img
+                  src="../assets/images/homePageImages/featuredImages/featured_card4.jpg"
+                  alt="featured-recipe-1"
+                />
+              </div>
+              <div class="recipe-info">
+                <h2 class="recipe-title text-ellipsis">
+                  Buffalo Meatballs with Yogurt
+                </h2>
+                <p class="recipe-description">
+                  Spicy chickpea meatballs paired with cool, creamy yogurt
+                  ranch—bold, tangy, and satisfying!
+                </p>
+              </div>
+              <div class="card-bottom">
+                <a href="recipePage.html">View Recipe</a>
+                <div class="card-icons">
+                  <i class="ri-heart-fill"></i>
+                  <span>123</span>
+                </div>
+              </div>
+            </div>
+            <div class="blog-recipe-card">
+              <div class="recipe-image">
+                <img
+                  src="../assets/images/blogPageImages/image2.jpg"
+                  alt="featured-recipe-1"
+                />
+              </div>
+              <div class="recipe-info">
+                <h2 class="recipe-title text-ellipsis">
+                  Pumpkin-Tahini Cheesecakes
+                </h2>
+                <p class="recipe-description">
+                  Rich pumpkin meets nutty tahini in creamy mini
+                  cheesecakes—perfectly spiced and irresistible!
+                </p>
+              </div>
+              <div class="card-bottom">
+                <a href="recipePage.html">View Recipe</a>
+                <div class="card-icons">
+                  <i class="ri-heart-fill"></i>
+                  <span>123</span>
+                </div>
+              </div>
+            </div>
+            <div class="blog-recipe-card">
+              <div class="recipe-image">
+                <img
+                  src="../assets/images/blogPageImages/image3.webp"
+                  alt="featured-recipe-1"
+                />
+              </div>
+              <div class="recipe-info">
+                <h2 class="recipe-title text-ellipsis">BBQ Salmon Bowls</h2>
+                <p class="recipe-description">
+                  Smoky BBQ salmon, fresh veggies, and grains in a flavorful,
+                  wholesome bowl!
+                </p>
+              </div>
+              <div class="card-bottom">
+                <a href="recipePage.html">View Recipe</a>
+                <div class="card-icons">
+                  <i class="ri-heart-fill"></i>
+                  <span>123</span>
+                </div>
+              </div>
+            </div>
+            <div class="blog-recipe-card">
+              <div class="recipe-image">
+                <img
+                  src="../assets/images/blogPageImages/image4.webp"
+                  alt="featured-recipe-1"
+                />
+              </div>
+              <div class="recipe-info">
+                <h2 class="recipe-title text-ellipsis">
+                  Baked Feta Spaghetti Squash
+                </h2>
+                <p class="recipe-description">
+                  Roasted spaghetti squash tossed with creamy baked feta and
+                  bursting with flavor!
+                </p>
+              </div>
+              <div class="card-bottom">
+                <a href="recipePage.html">View Recipe</a>
+                <div class="card-icons">
+                  <i class="ri-heart-fill"></i>
+                  <span>123</span>
+                </div>
+              </div>
+            </div>
+            <div class="blog-recipe-card">
+              <div class="recipe-image">
+                <img
+                  src="../assets/images/blogPageImages/image5.jpg"
+                  alt="featured-recipe-1"
+                />
+              </div>
+              <div class="recipe-info">
+                <h2 class="recipe-title text-ellipsis">
+                  Fudgy Healthy Brownies
+                </h2>
+                <p class="recipe-description">
+                  Rich, ultra-fudgy brownies made healthier without compromising
+                  on flavor!
+                </p>
+              </div>
+              <div class="card-bottom">
+                <a href="recipePage.html">View Recipe</a>
+                <div class="card-icons">
+                  <i class="ri-heart-fill"></i>
+                  <span>123</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------------------- End Of Blog Section ---------------->
+    </main>
+    <!---------------------- End Of Main Content ---------------->
+    <!---------------------- Start Of Footer -------------------->
+    <footer class="footer-container">
+      <a class="back-to-top" href="#"><i class="ri-arrow-up-s-line"></i></a>
+      <h1 class="footer-title">Frutilla</h1>
+      <div class="footer-social-media-container">
+        <a href="#" class="social-media-link">
+          <i class="ri-pinterest-fill"></i>
+        </a>
+        <a href="#" class="social-media-link">
+          <i class="ri-instagram-line"></i>
+        </a>
+        <a href="#" class="social-media-link">
+          <i class="ri-facebook-circle-fill"></i>
+        </a>
+        <a href="#" class="social-media-link">
+          <i class="ri-tiktok-fill"></i>
+        </a>
+        <a href="#" class="social-media-link">
+          <i class="ri-twitter-x-fill"></i>
+        </a>
+      </div>
+      <p class="footer-copyright">
+        ©2024 Frutilla. All rights reserved. <u>Privacy Policy</u>
+      </p>
+    </footer>
+    <!---------------------- End Of Footer ---------------------->
+  </body>
+</html>

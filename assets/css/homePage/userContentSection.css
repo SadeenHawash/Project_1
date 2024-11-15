@@ -1,0 +1,116 @@
+/*------------------------------------ Featured SECTION ---------------------------------------*/
+.user-content-container {
+  padding: 2rem 0;
+  margin: 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.user-content-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: var(--font-regular);
+  text-align: center;
+}
+
+.user-content-title {
+  font-size: 2rem;
+  font-weight: var(--font-regular);
+  margin-bottom: 1rem;
+}
+
+.user-content-description {
+  font-size: 1.2rem;
+  font-family: var(--secondary-font);
+}
+
+.user-content-description i {
+  color: #f87d0e;
+}
+
+.user-content-button {
+  color: var(--color-orange);
+  font-size: 1.5rem;
+}
+
+.user-content-recipes-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+  gap: 35px;
+}
+
+.user-content-recipes-grid-container .recipe-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.user-content-recipes-grid-container .recipe-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.button {
+  background-color: #f87d0e;
+}
+/*------------------------------------ RESPONSIVE ---------------------------------------*/
+
+@media (min-width: 375px) {
+  .user-content-recipes-grid-container {
+    grid-template-columns: repeat(auto-fit, 290px);
+  }
+}
+
+@media (min-width: 768px) {
+  .user-content-title {
+    font-size: 2.5rem;
+  }
+
+  .user-content-recipes-grid-container {
+    grid-template-columns: repeat(auto-fit, 320px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .user-content-container {
+    margin: 0rem 4rem;
+  }
+  .user-content-recipes-grid-container {
+    grid-template-columns: repeat(auto-fit, 296px);
+  }
+  .user-content-description {
+    margin: 0 6rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .user-content-recipes-grid-container {
+    grid-template-columns: repeat(auto-fit, 314px);
+  }
+}
+
+@media (min-width: 1450px) {
+  .user-content-recipes-grid-container {
+    grid-template-columns: repeat(auto-fit, 321px);
+  }
+}
+
+@media (min-width: 1500px) {
+  .user-content-recipes-grid-container {
+    grid-template-columns: repeat(auto-fit, 338px);
+  }
+}
+
+@media (min-width: 1600px) {
+  .user-content-recipes-grid-container {
+    grid-template-columns: repeat(auto-fit, 354px);
+  }
+}
+
+@media (min-width: 1800px) {
+  .user-content-recipes-grid-container {
+    grid-template-columns: repeat(auto-fit, 344px);
+  }
+}

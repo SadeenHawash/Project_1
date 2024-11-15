@@ -1,0 +1,97 @@
+/*------------------------------------ HOME SECTION ---------------------------------------*/
+
+.home-container {
+  row-gap: 2.5rem;
+  margin: 0 4rem;
+  padding-top: 1rem;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0rem;
+  text-align: center;
+}
+
+.home-data {
+  flex-basis: 35%;
+}
+
+.home-title {
+  font-size: var(--bigest-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 1rem;
+  text-shadow: 0 0 0.5rem rgba(17, 16, 14, 0.233);
+}
+
+.home-description {
+  font-size: var(--medium-font-size);
+  margin-bottom: 2rem;
+  font-family: var(--secondary-font);
+}
+
+.home-image {
+  -webkit-mask-repeat: no-repeat;
+  flex-basis: 40%;
+}
+
+.image-wrapper {
+  width: 100%;
+  filter: drop-shadow(0 0 0.75rem rgb(220, 150, 20));
+}
+
+.image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+  -webkit-mask-image: url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMjQ4LCAxMTcsIDU1LCAxKSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDI1MSwgMTY4LCAzMSwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMjYuNSwtMzEuN0MzMi41LC0yNi42LDM0LjMsLTE2LjUsMzYuMSwtNi4zQzM3LjksMy44LDM5LjgsMTMuOSwzNS43LDIwLjNDMzEuNiwyNi43LDIxLjYsMjkuNCwxMi43LDMwLjlDMy43LDMyLjUsLTQuMiwzMywtMTEuOCwzMC45Qy0xOS40LDI4LjgsLTI2LjUsMjQuMSwtMzEuOCwxNy4zQy0zNywxMC40LC00MC4yLDEuNCwtMzguMywtNi4zQy0zNi41LC0xNCwtMjkuNCwtMjAuMywtMjIuMiwtMjUuM0MtMTQuOSwtMzAuMiwtNy41LC0zMy44LDEuNCwtMzUuNUMxMC4zLC0zNy4xLDIwLjUsLTM2LjksMjYuNSwtMzEuN1oiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUwIDUwKSIgc3Ryb2tlLXdpZHRoPSIwIiBzdHlsZT0idHJhbnNpdGlvbjogMC4zczsiPjwvcGF0aD4KICAgICAgICAgICAgICA8L3N2Zz4=);
+}
+
+/*------------------------------------ RESPONSIVE ---------------------------------------*/
+@media (max-width: 430px) {
+  .home-container {
+    margin: 0 1rem;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 1023px) {
+  .home-container {
+    margin: 0 2rem;
+    padding-top: 1rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  .home-container {
+    flex-direction: row;
+    text-align: initial;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .home-data {
+    flex-basis: 40%;
+  }
+  .home-image {
+    flex-basis: 48%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .home-container {
+    padding: 1rem 0;
+    background-image: url("../../images/homePageImages/fruit_orange.png");
+    flex-direction: row;
+    text-align: initial;
+    justify-content: center;
+    gap: 5rem;
+  }
+}
+
+@media (min-width: 1220px) {
+  .home-title {
+    font-size: 2.3rem;
+  }
+  .home-description {
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+  }
+}

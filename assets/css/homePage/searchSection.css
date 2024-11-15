@@ -1,0 +1,87 @@
+/*------------------------------------ Featured SECTION ---------------------------------------*/
+.search-container {
+  padding: 2rem 1rem;
+  margin: 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #f87b0e27;
+  align-items: center;
+  text-align: center;
+}
+
+.search-container h2 {
+  font-size: 1.2rem;
+}
+.search-title {
+  font-size: 2rem;
+  font-weight: var(--font-regular);
+  margin-bottom: 1rem;
+}
+
+.search-data {
+  font-weight: var(--font-regular);
+}
+
+.search-bar {
+  width: 100%;
+  position: relative;
+}
+
+.search-bar input {
+  border: none;
+  width: 100%;
+  height: 65px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1rem;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  color: #fc4e00;
+}
+
+.search-bar-button {
+  position: absolute;
+  color: #fc4e00;
+  border: none;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  right: -10px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+/*------------------------------------ RESPONSIVE ---------------------------------------*/
+
+@media (max-width: 431px) {
+  .search-bar input {
+    height: 55px;
+  }
+  .search-bar-button {
+    right: -15px;
+    top: -2px;
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .search-title {
+    font-size: 2.5rem;
+  }
+  .search-bar {
+    width: 90%;
+  }
+  .search-container h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .search-container {
+    margin: 0rem 4rem;
+  }
+  .search-bar {
+    width: 80%;
+  }
+}
