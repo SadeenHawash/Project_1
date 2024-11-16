@@ -72,24 +72,9 @@
   font-family: var(--secondary-font);
 }
 
-.recipe-card-bottom {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: var(--secondary-font);
-  padding: 0.5rem;
+figcaption {
+  font-size: 1.4rem;
 }
-
-.heart-icon i {
-  font-size: 1.3rem;
-  color: var(--color-yellow);
-}
-
-.heart-icon span {
-  color: var(--color-orange);
-}
-
 /*------------------------------------ RESPONSIVE ---------------------------------------*/
 
 @media (min-width: 375px) {

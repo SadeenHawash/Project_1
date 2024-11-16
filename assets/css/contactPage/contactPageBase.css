@@ -34,36 +34,12 @@
   color: var(--color-purple);
 }
 
+figcaption {
+  display: none;
+}
+
 /*------------------------------------ RESPONSIVE ---------------------------------------*/
 
-/* @media (min-width: 375px) {
-  .featured-recipes-grid-container {
-    grid-template-columns: repeat(auto-fit, 320px);
-  }
-}
-
-@media (min-width: 414px) {
-  .featured-recipes-grid-container {
-    grid-template-columns: repeat(auto-fit, 340px);
-  }
-}
-
-@media (min-width: 768px) {
-  .featured-title {
-    font-size: 2.5rem;
-  }
-  #view-more-small {
-    display: none;
-  }
-
-  #view-more-large {
-    display: block;
-  }
-  .featured-recipes-grid-container {
-    grid-template-columns: repeat(auto-fit, 355px);
-  }
-}
-*/
 @media (min-width: 1024px) {
   .contact-container {
     margin: 6rem 2rem;
