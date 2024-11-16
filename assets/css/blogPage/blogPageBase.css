@@ -62,7 +62,7 @@
   padding: 1rem;
 }
 
-.recipe-info p {
+.recipe-info blockquote {
   font-family: var(--secondary-font);
 }
 
